@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
 //   // 第二題：按紐刪除
 
-//   document.querySelectorAll('.close').forEach(function(door){
-//     door.addEventListener('click', function(d){
-//     d.target.parentNode.remove();
-//     })
-//   })
-//   })
+  document.querySelectorAll('.close').forEach(function(door){
+    door.addEventListener('click', function(d){
+    d.target.parentNode.remove();
+    })
+  })
+  // })
 
 
 // // 第三題：新增項目
@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', function(){
 //         document.querySelector('ul').insertAdjacentElement('beforeend', li1)
 //     }
     
-//     remove1()
-//     })
+    // remove1()
+    // })
   })
 
 // // 提示A：在ls放上事件
